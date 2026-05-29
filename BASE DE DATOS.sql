@@ -149,18 +149,3 @@ INSERT INTO purchases (user_id, total_amount, status) VALUES
 
 INSERT INTO purchase_items (purchase_id, product_id, quantity, unit_price, subtotal) VALUES
 (1, 2, 1, 65000.00, 65000.00);
-
--- Opcional: reflejar el stock de la compra inicial
-UPDATE products
-SET stock = stock - 1
-WHERE id = 2 AND stock > 0;
-
--- ============================================================
--- VERIFY
--- ============================================================
-
-SELECT 'Database created successfully' AS message;
-SELECT COUNT(*) AS total_users FROM users;
-SELECT COUNT(*) AS total_products FROM products;
-SELECT COUNT(*) AS total_purchases FROM purchases;
-SELECT COUNT(*) AS total_purchase_items FROM purchase_items;
