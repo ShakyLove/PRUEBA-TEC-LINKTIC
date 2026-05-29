@@ -23,17 +23,10 @@ npm -v
 
 ## 2. Clonar el proyecto
 
-Si el evaluador recibe el proyecto desde un repositorio Git:
 
 ```bash
 git clone <URL_DEL_REPOSITORIO>
 cd "PRUEBA TEC LINTICK"
-```
-
-Si ya tiene la carpeta local, solo debe ubicarse en la raiz del proyecto:
-
-```bash
-cd "C:\Users\isaac\Documents\MIS DOCUMENTOS\PRUEBA TEC LINTICK"
 ```
 
 ## 3. Preparar la base de datos
@@ -72,7 +65,7 @@ spring.datasource.username=root
 spring.datasource.password=1234567
 ```
 
-Si en el equipo del evaluador el usuario o password de MySQL es diferente, debe cambiar esos valores antes de ejecutar el backend.
+Si en el equipo el usuario o password de MySQL es diferente, debe cambiar esos valores antes de ejecutar el backend.
 
 ## 5. Ejecutar el backend
 
